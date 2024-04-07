@@ -1,0 +1,129 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+}
+h1 {
+  color: white;
+}
+h2,
+h4 {
+  color: white;
+}
+
+footer {
+  color: white;
+}
+
+ul {
+  color: white;
+  list-style: none;
+  display: inline-flex;
+  margin-left: 400px;
+}
+nav li {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 15px;
+  text-decoration: underline;
+}
+nav {
+  width: 1200px;
+  display: inline-flex;
+  align-items: flex-end;
+  margin-left: 10px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  max-width: 1000px;
+}
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 1200px; */
+}
+
+.location-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 600px;
+  background-image: url(/Resources/Images/img-locations-background.jpg);
+}
+/* .location li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.locations ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px;
+  background-color: black;
+  line-height: 50px;
+  width: 300px;
+  height: 300px;
+}
+
+.location-container {
+  display: inline-flex;
+  justify-content: center;
+  width: 1200px;
+}
+
+.mission-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 600px;
+  background-image: url(/Resources/Images/img-mission-background.jpg);
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  height: fit-content;
+  background-color: black;
+}
+.tea-month {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tea-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+}
+.tea img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
